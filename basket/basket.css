@@ -1,0 +1,111 @@
+.rec {
+  display: flex;
+  flex-direction: column;
+}
+.rec .recommendations {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+.rec .recommendations .tem {
+  width: auto;
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid rgb(100, 11, 96);
+  border-radius: 10px;
+}
+.rec .recommendations .tem a {
+  text-decoration: none;
+}
+.rec .recommendations .tem__imageblock img {
+  max-width: 200px;
+  max-height: 200px;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.rec .recommendations .tem__textblock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.rec .recommendations .tem__textblock h4 {
+  max-height: 33px;
+}
+.rec .recommendations .tem__textblock p {
+  max-height: 25px;
+}
+.rec .recommendations .tem__textblock h4, .rec .recommendations .tem__textblock p {
+  font-size: 14px;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+.rec .recommendations .tem__btns {
+  padding-bottom: 10px;
+}
+.rec .recommendations .tem__btns .for_user {
+  display: flex;
+  gap: 130px;
+}
+.rec .em {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.rec .em__block {
+  display: flex;
+  gap: 40px;
+}
+.rec .em__block__image {
+  width: 50%;
+}
+.rec .em__block__image img {
+  width: 100%;
+  max-width: 500px;
+}
+.rec .em__block__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.rec .em__block__text p {
+  padding: 10px 20px;
+  border: 1px solid rgb(100, 11, 96);
+  border-radius: 5px;
+  font-weight: 600;
+  width: 90%;
+  font-size: 18px;
+}
+.rec .em__block__price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.rec .em__block__price button {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.rec .em__block__price .hot {
+  border: 1px solid #cb11ab;
+  background-color: white;
+}
+.rec .em__block__price .hot:hover {
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+  border: 1px solid white;
+  background-color: #cb11ab;
+}
+.rec .em__block__price div {
+  display: flex;
+  gap: 15px;
+}/*# sourceMappingURL=basket.css.map */

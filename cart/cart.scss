@@ -1,0 +1,119 @@
+
+
+.m { 
+    input, select {
+        border: 1px solid #cb11ab;
+        padding: 10px 20px;
+        border-radius: 10px;
+    } 
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+
+        &__image {
+            width: 50%;
+            img {
+                width: 100%;
+                max-width: 400px;
+            }
+        }
+    
+        &__text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+
+            // width: 100%;
+            p {
+                padding: 10px 20px;
+                border: 1px solid rgb(100, 11, 96);
+                border-radius: 5px;
+                font-weight: 600;
+                width: 90%;
+                font-size: 18px;
+            }
+        }
+
+        &__price {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+
+            border-radius: 15px;
+            border: 1px solid #cb11ab;
+            padding: 15px;
+
+            button {
+                width: 100%;
+                padding: 10px 15px;
+                border-radius: 5px;
+            }
+
+            .hot {
+                border: 1px solid #cb11ab;
+                background-color: white;
+            }
+            .hot:hover {
+                transition: ease-in-out;
+                transition-duration: 0.5s;
+                border: 1px solid white;
+                background-color: #cb11ab;
+            }
+            .warm {
+                background-color: #cb11ab;
+                border: white;
+            } 
+            .warm:hover {
+                transition: ease-in-out;
+                transition-duration: 0.5s;
+                background-color: white;
+                border: 1px solid #cb11ab;
+            } 
+
+            #totalnumber{
+                display: flex;
+                gap: 15px;
+
+                i {
+                    padding: 2px;
+                    border: 1px solid;
+                    border-radius: 10px;
+                }
+            }
+
+            #personalInfo {
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+
+                div {
+                    display: flex;
+                    gap: 20px;
+                    width: 100%;
+
+                    input {
+                        width: 100%;
+                    }
+                }
+            }
+
+            #cartInfo {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                div {
+                    display: flex;
+                }
+            }
+        }
+
+        // .fa-solid-fa-minus, .fa-regular-fa-plus {
+        //     border-radius: 5px;
+        //     border: 1px solid;
+        // }
+    }
+}

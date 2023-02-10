@@ -1,0 +1,76 @@
+.intro {
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    @media screen and (max-width: 425px) {
+        margin-top: 10px;
+        gap: 10px;
+    }
+
+
+
+    &__first {
+        .carousel-slide {
+            border-radius: 10px;
+            .carousel-inner {
+
+                .carousel-item {
+                    .d-block-w-100 {
+                        border-radius: 15px;
+                    }
+                }
+
+                img {
+                    border-radius: 15px;
+                }
+
+                .carousel-control-next-icon, .carousel-control-prev-icon {
+                    height: 200px;
+                }
+            }
+        }        
+    }
+
+    // &__page {
+    //     display: flex;
+    //     flex-direction: column;
+
+    //     div {
+    //         display: flex;
+    //         gap: 20px;
+    //     }
+    // }
+
+    &__page {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap:30px;
+
+        @media screen and (max-width: 425px) {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        div {
+            a {        
+                img {
+                    border-radius: 25px;
+                    width: 100%;
+                    transition: ease-in-out;
+                    transition-duration: 0.5s;
+
+                    @media screen and (max-width: 425px) {
+                        border-radius: 10px;
+                    } 
+                }
+
+                img:hover {
+                    transform: scale(1.05);
+                }                           
+            }
+        }
+    }
+}

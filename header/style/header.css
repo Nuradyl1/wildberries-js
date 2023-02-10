@@ -1,0 +1,112 @@
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+@media screen and (max-width: 425px) {
+  header {
+    gap: 10px;
+  }
+}
+header i {
+  color: white;
+}
+header a {
+  color: white;
+}
+header .top-menu {
+  display: flex;
+  gap: 10px;
+}
+header .top-menu ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  justify-content: space-between;
+  width: 55%;
+}
+header .top-menu ul li {
+  list-style: none;
+}
+header .top-menu ul li a {
+  text-decoration: none;
+}
+header .top-menu ul li img {
+  width: 10px;
+}
+@media screen and (max-width: 425px) {
+  header .top-menu ul {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 420px) {
+  header .top-menu ul .top-menu-block {
+    display: none;
+  }
+}
+header .top-menu ul .top-menu-wild {
+  padding: 2px 6px;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+@media screen and (max-width: 420px) {
+  header nav {
+    gap: 5px;
+  }
+}
+header nav .navbar__menu-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+@media screen and (max-width: 425px) {
+  header nav .navbar__menu-logo h1 a {
+    font-size: 18px;
+  }
+}
+header nav .navbar__input {
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+header nav .navbar__input input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+}
+@media screen and (max-width: 800px) {
+  header nav .navbar__input {
+    display: none;
+  }
+}
+header nav .navbar__user {
+  display: flex;
+  gap: 25px;
+}
+@media screen and (max-width: 425px) {
+  header nav .navbar__user {
+    gap: 5px;
+  }
+}
+header nav .navbar__user__items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+header nav .navbar__user__items a {
+  color: white;
+}/*# sourceMappingURL=header.css.map */

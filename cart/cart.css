@@ -1,0 +1,95 @@
+.m input, .m select {
+  border: 1px solid #cb11ab;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.m__block {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.m__block__image {
+  width: 50%;
+}
+.m__block__image img {
+  width: 100%;
+  max-width: 400px;
+}
+.m__block__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.m__block__text p {
+  padding: 10px 20px;
+  border: 1px solid rgb(100, 11, 96);
+  border-radius: 5px;
+  font-weight: 600;
+  width: 90%;
+  font-size: 18px;
+}
+.m__block__price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 15px;
+  border: 1px solid #cb11ab;
+  padding: 15px;
+}
+.m__block__price button {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.m__block__price .hot {
+  border: 1px solid #cb11ab;
+  background-color: white;
+}
+.m__block__price .hot:hover {
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+  border: 1px solid white;
+  background-color: #cb11ab;
+}
+.m__block__price .warm {
+  background-color: #cb11ab;
+  border: white;
+}
+.m__block__price .warm:hover {
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+  background-color: white;
+  border: 1px solid #cb11ab;
+}
+.m__block__price #totalnumber {
+  display: flex;
+  gap: 15px;
+}
+.m__block__price #totalnumber i {
+  padding: 2px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.m__block__price #personalInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.m__block__price #personalInfo div {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+.m__block__price #personalInfo div input {
+  width: 100%;
+}
+.m__block__price #cartInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.m__block__price #cartInfo div {
+  display: flex;
+}/*# sourceMappingURL=cart.css.map */

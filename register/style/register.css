@@ -1,0 +1,53 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+main .form {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 15px;
+  padding: 30px 20px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  text-align: center;
+}
+main .form h1 a {
+  text-decoration: none;
+  color: black;
+}
+main .form .container-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+main .form .container-form input, main .form .container-form button {
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+}
+main .form .container-form .number-form {
+  display: flex;
+  width: 100%;
+}
+main .form .container-form .number-form #number {
+  border-color: 2px solid blueviolet;
+}
+main .form .term1, main .form .term2, main .form .term3 {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: 1;
+  padding-left: 15px;
+}
+main .form .term1 .inputField, main .form .term2 .inputField, main .form .term3 .inputField {
+  border: 1.5px solid black;
+  accent-color: blueviolet;
+}
+main #errorField {
+  color: red;
+}/*# sourceMappingURL=register.css.map */

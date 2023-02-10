@@ -1,0 +1,92 @@
+.admin-page {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.admin-page .add {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.admin-page .add form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 15px;
+}
+.admin-page .add form input, .admin-page .add form textarea, .admin-page .add form select {
+  resize: none;
+  width: 400px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border: 1px solid rgb(186, 186, 186);
+  outline: none;
+  border-radius: 5px;
+}
+.admin-page .add form button {
+  width: 60%;
+  height: auto;
+  padding: 7px 0;
+}
+.admin-page .products {
+  padding: 30px 5%;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.admin-page .products__item {
+  border: 1px solid rgb(186, 186, 186);
+  border-radius: 5px;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.admin-page .products__item__imageblock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.admin-page .products__item__imageblock img {
+  max-width: 200px;
+  width: 100%;
+  height: 100%;
+}
+.admin-page .products__item__textblock {
+  text-align: center;
+}
+.admin-page .products__item__textblock p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 250px;
+}
+.admin-page .products__item__btns {
+  display: flex;
+  justify-content: space-between;
+}
+.admin-page .products__item__btns .for_user, .admin-page .products__item__btns .for_admin {
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+}
+.admin-page .products__item__btns .for_user i, .admin-page .products__item__btns .for_admin i {
+  cursor: pointer;
+}
+.admin-page .basket {
+  width: 400px;
+  height: 100vh;
+  position: fixed;
+  right: -400px;
+  top: 0;
+  bottom: 0;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+  border-left: 1px solid black;
+}
+.admin-page .basket.on {
+  right: 0;
+}/*# sourceMappingURL=admin.css.map */

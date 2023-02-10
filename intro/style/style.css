@@ -1,0 +1,49 @@
+.intro {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+@media screen and (max-width: 425px) {
+  .intro {
+    margin-top: 10px;
+    gap: 10px;
+  }
+}
+.intro__first .carousel-slide {
+  border-radius: 10px;
+}
+.intro__first .carousel-slide .carousel-inner .carousel-item .d-block-w-100 {
+  border-radius: 15px;
+}
+.intro__first .carousel-slide .carousel-inner img {
+  border-radius: 15px;
+}
+.intro__first .carousel-slide .carousel-inner .carousel-control-next-icon, .intro__first .carousel-slide .carousel-inner .carousel-control-prev-icon {
+  height: 200px;
+}
+.intro__page {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+@media screen and (max-width: 425px) {
+  .intro__page {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+.intro__page div a img {
+  border-radius: 25px;
+  width: 100%;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+}
+@media screen and (max-width: 425px) {
+  .intro__page div a img {
+    border-radius: 10px;
+  }
+}
+.intro__page div a img:hover {
+  transform: scale(1.05);
+}/*# sourceMappingURL=style.css.map */

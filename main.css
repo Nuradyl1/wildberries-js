@@ -1,0 +1,57 @@
+@import "./header/style/header.css";
+@import "./intro/style/style.css";
+@import "./register/style/register.css";
+@import "./adminn/admin.css";
+@import "./footer/foooter.css";
+@import "./basket/basket.css";
+@import "./cart/cart.css";
+@import "./basketon/basketon.css";
+@import "./index.css";
+* {
+  margin: 0;
+  padding: 0;
+}
+* body {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: rgb(100, 11, 96);
+}
+@media screen and (max-width: 425px) {
+  * body {
+    gap: 10px;
+  }
+}
+* body header, * body footer {
+  background-color: rgb(100, 11, 96);
+  padding: 20px;
+}
+@media screen and (max-width: 425px) {
+  * body header, * body footer {
+    padding: 5px 10px;
+  }
+}
+* body header a, * body footer a {
+  color: white;
+  text-decoration: none;
+}
+* body header li, * body footer li {
+  color: white;
+}
+@media screen and (max-width: 425px) {
+  * body {
+    font-size: 12px;
+  }
+}
+* body main {
+  padding: 0px 20px;
+  background-color: white;
+}
+@media screen and (max-width: 425px) {
+  * body main {
+    border-radius: 5px;
+  }
+}
+* body main a {
+  color: black;
+}/*# sourceMappingURL=main.css.map */

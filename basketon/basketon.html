@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../main.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="top-menu">
+            <ul>
+                <li>
+                    <img src="../header/assets/russia.png" alt="">
+                    RUB
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Москва
+                    </a>
+                </li>
+                <li class="top-menu-wild">
+                    <a href="../adminn/adminn.html">Продавайте на Wildberries</a>
+                </li>
+                <li class="top-menu-wild">
+                    <a href="#">Работа в Wildberries</a>
+                </li>
+            </ul>
+            <div>
+
+            </div>
+        </div>
+        <nav>
+            <div class="navbar__menu-logo">
+                <h1>
+                    <a href="../index.html">
+                        WILDBERRIES
+                    </a>
+                </h1>
+                <i class="fa-solid fa-bars btn" id="menu-toggle"></i>
+            </div>
+            <div class="navbar__input">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Я ищу...">
+                <i class="fa-solid fa-camera"></i>
+            </div>
+            <div class="navbar__user"> 
+                <div class="navbar__user__items">
+                    <a href="../register/register.html">
+                        <i class="fa-solid fa-user"></i>
+                        Войти
+                    </a>
+                </div>
+                <div class="navbar__user__items">
+                    <a href="../basketon/basketon.html">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        Корзина
+                    </a>    
+                </div>
+                <div class="navbar__user__items">
+                    <a href="../favorites/favorites.html">
+                        <i class="fa-regular fa-heart"></i>
+                        Избранное
+                    </a>    
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="cont">
+            <div class="container-basketon">
+
+            </div>
+            <a href="../cart/cart.html">
+                <button class="hot" id="" onclick="addToBasketStorage(event)">
+                Добавить в корзину
+                </button>
+            </a>
+            <div>
+                <a href="../index.html">Вернуться назад</a>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <div>
+            <ul>
+                <li>Покупателям</li>
+                <li><a href="https://www.wildberries.ru/services/kak-sdelat-zakaz">Как сделать заказ</a></li>
+                <li><a href="https://www.wildberries.ru/services/sposoby-oplaty">Способы оплаты</a></li>
+                <li><a href="https://www.wildberries.ru/services/besplatnaya-dostavka">Доставка</a></li>
+                <li><a href="https://www.wildberries.ru/services/vozvrat-tovara">Возврат товара</a></li>
+                <li><a href="https://www.wildberries.ru/services/vozvrat-denezhnyh-sredstv">Возврат денежных средств</a></li>
+                <li><a href="https://www.wildberries.ru/services/pravila-prodazhi">Правила продажи</a></li>
+                <li><a href="https://www.wildberries.ru/services/pravila-polzovaniya-torgovoy-ploshchadkoy">Правила пользования торгговой площадки</a></li>
+                <li><a href="https://www.wildberries.ru/services/voprosy-i-otvety">Вопросы и ответы</a></li>
+            </ul>
+        </div>
+        <div class="two-box">
+            <div>
+                <ul>
+                    <li>Партнерам</li>
+                    <li><a href="https://seller.wildberries.ru/">Продавайте на Wildberries</a></li>
+                    <li><a href="https://orr.wildberries.ru/courier-info/index.html">Курьерам</a></li>
+                    <li><a href="https://www.wildberries.ru/promo/priglashaem-k-sotrudnichestvu">Перевозчикам</a></li>
+                    <li><a href="https://point-promo.wb.ru/">Партнерский пункт выдачи</a></li>
+                    <li><a href="https://www.wildberries.ru/services/franshizniy-punkt-vydachi">Франшизный пункт выдачи</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>Наши проекты</li>
+                    <li><a href="https://guru.wildberries.ru/?utm_source=main_footer">WB Guru</a></li>
+                    <li><a href="https://vsemrabota.ru/appwb/">Трудоустройство</a></li>
+                    <li><a href="https://digital.wildberries.ru/">Цифровые товары</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <ul>
+                <li>Компания</li>
+                <li><a href="https://www.wildberries.ru/services/o-nas">О нас</a></li>
+                <li><a href="https://www.wildberries.ru/services/rekvizity">Реквизиты</a></li>
+                <li><a href="https://www.wildberries.ru/presscenter">Пресс-центр</a></li>
+                <li><a href="https://www.wildberries.ru/services/kontakty">Контакты</a></li>
+                <li><a href="https://www.wildberries.ru/services/bug-bounty">Buy Bounty</a></li>
+                <li><a href="https://t.me/wbdevs">WB.Tech</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>Мы в соцсетях</li>
+                <li><a href="http://vk.com/club9695053">ВКонтакте</a></li>
+                <li><a href="http://www.odnoklassniki.ru/wildberries">Одноклассники</a></li>
+                <li><a href="https://www.youtube.com/Wildberriesshop">YouTube</a></li>
+                <li><a href="https://t.me/wildberriesru_official">Телеграм</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>Мобильные устройства</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./basketon.js"></script>
+    
+</body>
+</html>
